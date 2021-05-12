@@ -118,6 +118,7 @@ const swiper = new Swiper('.team__slider', {
     direction: 'horizontal',
     loop: true,
     spaceBetween: 30,
+    grabCursor: true,
     // If we need pagination
     pagination: {
         el: '.swiper-pagination',
@@ -131,6 +132,11 @@ const swiper = new Swiper('.team__slider', {
     scrollbar: {
         el: '.swiper-scrollbar',
     },
+    keyboard:{
+       enabld: true,
+       onlyInViewport:true,
+       pageUpDown: true,
+   },
 });
 
 const swiper2 = new Swiper('.testimonials__slider', {
@@ -138,6 +144,7 @@ const swiper2 = new Swiper('.testimonials__slider', {
     direction: 'horizontal',
     loop: true,
     spaceBetween: 30,
+    grabCursor: true,
     // If we need pagination
     pagination: {
         el: '.swiper-pagination',
@@ -151,6 +158,11 @@ const swiper2 = new Swiper('.testimonials__slider', {
     scrollbar: {
         el: '.swiper-scrollbar',
     },
+    keyboard:{
+       enabld: true,
+       onlyInViewport:true,
+       pageUpDown: true,
+   },
 });
 
 const swiper3 = new Swiper('.news__slider', {
@@ -158,6 +170,7 @@ const swiper3 = new Swiper('.news__slider', {
     direction: 'horizontal',
     loop: true,
     spaceBetween: 30,
+    grabCursor: true,
     // If we need pagination
     pagination: {
         el: '.swiper-pagination',
@@ -171,6 +184,11 @@ const swiper3 = new Swiper('.news__slider', {
     scrollbar: {
         el: '.swiper-scrollbar',
     },
+    keyboard:{
+       enabld: true,
+       onlyInViewport:true,
+       pageUpDown: true,
+   },
 });
 ;
 function app() {
@@ -290,7 +308,7 @@ let tabServ = function () {
 
 
 tabServ();
-;
+
 
 
 
